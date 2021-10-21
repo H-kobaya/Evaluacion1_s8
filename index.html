@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous" />
+        <link href="style.css" rel="stylesheet" />
+        <title>Evaluación Nº1</title>
+    </head>
+    <body>
+        <nav class="fixed-top container">
+            <div class="row pt-2">
+                <div class="col">
+                    <h3 class="fs-6 d-flex justify-content-between align-items-center"><span>Evaluación</span> <span>Nº1</span></h3>
+                </div>
+            </div>
+        </nav>
+        <header class="container-fluid" id="fondo-con-imagen">
+            <div class="row h-100">
+                <div class="div text-center my-auto">
+                    <h1>Aperture Science Handheld Portal Device</h1>
+                    <h2>A.S.H.P.D</h2>
+                </div>
+            </div>
+        </header>
+        <section class="container py-3">
+            <div class="row py-4">
+                <div class="col-sm-10 col-md-8 mx-auto">
+                    <p style="margin-bottom:10%">Bienvenidos/as damas y caballeros a <strong>APERTURE SCIENCE</strong>. Astronautas, veteranos de guerra, atletas olimpicos, entre otros, son la clase de personas que encontraran dentro de nuestras instalaciones. Asi que, ¿Quién esta listo para hacer algo de ciencia?.</p>
+                    <p> Aqui en APERTURE SCIENCE no hacemos las cosas porque debamos, sino porque podemos. Y con mucho orgullo me encantaria presentarles el ultimo proyecto en el que hemos estado trabajando. Los cientificos en el laboratorio lo han llamado<strong> "Aperture Science Handheld Portal Device"</strong>, o <strong>ASHPD</strong> en corto. </p>
+
+                    <div id="myCarousel" class="carousel slide" data-bs-ride="carousel">
+                      <div class="carousel-inner">
+                        <div class="carousel-item active">
+                          <img src="img/1.jpg" class="d-block w-100" alt="...">
+                        </div>
+                        <div class="carousel-item">
+                          <img src="img/2.png" class="d-block w-100" alt="...">
+                        </div>
+                        <div class="carousel-item">
+                          <img src="img/3.png" class="d-block w-100" alt="...">
+                        </div>
+                      </div>
+                      <button class="carousel-control-prev" type="button" data-bs-target="#myCarousel" data-bs-slide="prev">
+                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Previous</span>
+                      </button>
+                      <button class="carousel-control-next" type="button" data-bs-target="#myCarousel" data-bs-slide="next">
+                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Next</span>
+                      </button>
+                    </div>
+
+
+                    <p>Bastante genial ¿no?, pues yo digo ¡no es suficiente!. Sin embargo nuestro presupuesto se acorta y esto es todo lo que podemos hacer hasta ahora. Resulta que los<strong> rayos cuanticos</strong> y<strong> la fisica</strong> involucrada en este<strong> maquinote</strong>, se ven especialmente atraidos hacia la<strong> piedra lunar</strong>, por lo que por ahora solo hemos podido hacerlo funcionar en superficies planas que se encuentren cubiertas de ella. Aparentemente, la piedra lunar tambien es <strong>extremadamente toxica</strong> por lo que esperamos que al pasar por el portal podamos disminuir los niveles de contaminación dentro de nuestros cuerpos (si, tambien el tuyo) y asi no morir antes de los 30. </p>
+
+                    <!--En el siguiente SVG me aprovecho del "clip path", fíjense en los dos últimos dígitos del viewBox y los valores en width y height de la imagen que se recorta con el path: Deben ser los mismos. Pero la imagen originalmente vinculada tendría que ser más grande por asuntos de resolución -->
+
+                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="-10 0 40 20" class="my-5">
+                        <defs>
+                            <clipPath id="recorte">
+                                <path d="M17.109,5.454c-0.242-0.289-0.673-0.327-0.962-0.086l-1.894,1.591l-0.871-2.158    c-0.031-0.081-0.078-0.149-0.132-0.209c-0.178-0.396-0.487-0.736-0.913-0.933c-0.185-0.084-0.376-0.129-0.567-0.151    c-0.042-0.022-0.08-0.051-0.128-0.066L8.309,2.513C8.122,2.462,7.934,2.495,7.78,2.585C7.597,2.647,7.44,2.78,7.365,2.973    L6.11,6.2C5.974,6.551,6.148,6.947,6.5,7.085c0.35,0.136,0.747-0.039,0.884-0.391l1.06-2.725l1.518,0.422    c-0.037,0.06-0.077,0.116-0.107,0.18L7.909,8.789C7.881,8.851,7.866,8.914,7.846,8.978l-2.365,3.965l-3.958,1.324    c-0.448,0.335-0.543,0.966-0.212,1.414c0.333,0.449,0.966,0.544,1.413,0.213l4.05-1.395c0.124-0.09,0.214-0.208,0.282-0.335    C7.107,14.11,7.165,14.067,7.204,14l1.41-2.364l2.503,2.133l-2.678,3.018c-0.369,0.416-0.332,1.057,0.086,1.425    c0.417,0.371,1.056,0.332,1.427-0.086l3.342-3.765c0.104-0.116,0.166-0.25,0.208-0.39c0.025-0.076,0.025-0.155,0.031-0.234    c0-0.04,0.015-0.076,0.012-0.113c-0.009-0.276-0.121-0.544-0.347-0.735l-2.303-1.964c0.166-0.158,0.307-0.346,0.409-0.567    l1.492-3.231L13.274,8.4c0.02,0.113,0.058,0.224,0.138,0.317c0.072,0.086,0.164,0.143,0.262,0.183    c0.01,0.005,0.022,0.006,0.034,0.009c0.062,0.022,0.125,0.043,0.19,0.046c0.077,0.007,0.155-0.003,0.234-0.025    c0.002-0.001,0.003-0.001,0.003-0.001c0.021-0.005,0.042-0.001,0.063-0.01c0.111-0.042,0.196-0.113,0.269-0.196l2.718-2.307    C17.474,6.173,17.352,5.743,17.109,5.454z"></path>
+                                <circle xmlns="http://www.w3.org/2000/svg" style="fill:#030104;" cx="13.671" cy="1.905" r="1.905"/>
+                            </clipPath>
+                        </defs>
+                        <image width="900" height="600" clip-path="url(#recorte)" xlink:href="img/color.png" >
+                    </svg>
+
+                    <p>
+                      ¿Aun sigues vivo? ¡Genial!, nos encantaria probar si tus habilidades automotrices son más avanzadas que las de un mono. Y creeme tenemos monos muy avanzados. ¿Porque no dibujas algo?, lo que sea, aunque debido a la aleación de nuestros establecimientos ahora solo podemos ver circulos. Una pena realmente.
+                    </p>
+
+                    <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.4.0/p5.min.js"></script>
+
+                    <script>
+                    function setup() {
+                      var canvas = createCanvas(400, 400);
+                      canvas.parent('canvas-container');
+                      ;
+                    }
+
+                    function draw() {
+                      if (mouseIsPressed) {
+                        fill(0);
+
+                      }
+                      ellipse(mouseX,mouseY,50,50);
+                    }
+
+                    </script>
+
+                    <div id="canvas-container">
+                      </div>
+
+
+
+
+                    <p id="estadisticas"> Algunas estadisticas, nada muy importante. </p>
+
+
+
+                          <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/3.5.1/chart.min.js"
+                              integrity="sha512-Wt1bJGtlnMtGP0dqNFH1xlkLBNpEodaiQ8ZN5JLA5wpc1sUlk/O5uuOMNgvzddzkpvZ9GLyYNa8w2s7rqiTk5Q=="
+                              crossorigin="anonymous"
+                              referrerpolicy="no-referrer"
+                          ></script>
+                          <!--con el siguiente script voy a buscar datos a un JSON y con ellos construyo un gráfico de barras-->
+                          <script>
+                              fetch("http://myjson.dit.upm.es/api/bins/jlj")
+                                  .then((response) => response.json())
+                                  .then((casos) => {
+                                      console.log(casos);
+                                      var  lasMuertes=[],
+                                          muertePortales = [],
+                                          muerteQuimicos = [];
+
+                                      casos.forEach((d) => {
+                                          lasMuertes.push(d.muertes);
+                                          muertePortales.push(d.portales);
+                                          muerteQuimicos.push(d.quimicos);
+                                      });
+
+                                      new Chart(document.getElementById("misBarritas").getContext("2d"), {
+                                          type: "bar",
+                                          data: {
+                                              labels:  lasMuertes,
+                                              datasets: [
+
+                                                  {
+                                                      data:   muertePortales,
+                                                      backgroundColor: "#204b91",
+                                                      label: "Portales",
+
+                                                  },
+                                                  {
+                                                      data: muerteQuimicos,
+                                                      backgroundColor:"#ff6f00",
+                                                      label:" Quimicos",
+
+                                                  },
+
+                                              ],
+                                          },
+                                          options: {
+                                              scales: {
+                                                  y: {
+                                                      ticks: {
+                                                          callback: function (numero) {
+                                                              return numero.toLocaleString("es-CL");
+                                                          },
+                                                      },
+                                                  },
+                                              },
+                                              plugins: {
+                                                  title: {
+                                                      display: true,
+                                                      text: "Muertes del primer trimestre en Aperture",
+                                                  },
+                                              },
+                                          },
+                                      });
+                                  })
+                                  .catch((error) => console.log("¡PLW!", error));
+                          </script>
+
+
+              <canvas id="misBarritas" width="400" height="400"></canvas>
+              <p> Y esto fue el recorrido a APERTURE SCIENCE, ¿te gusto?, que bueno ahora porfavor vayanse que tengo una reunion acerca de pingunos con alas mecanicas y porque eso seria una gran idea para combatir al calentamiento globla y no me la quiero perder. <strong>Chau chau, Arrivederci, Sayonara, Goodbye, Ciao</strong>
+                    </p>
+                </div>
+            </div>
+        </section>
+
+        <footer class="container border-top">
+            <div class="row pt-3">
+                <div class="col">
+                    <!--recuerden cambiar el "#" por los vínculos correspondientes-->
+                    <p class="d-flex justify-content-between align-items-center small"><a class="foot"href="https://github.com/H-kobaya">Hisashi Kobayashi</a> <a class="foot" href="#">AUD5V0010</a></p>
+                </div>
+            </div>
+        </footer>
+        <!--con el siguiente script escondo el nav fijo según avance del scroll -->
+        <script>
+            var altura = document.getElementById("fondo-con-imagen").offsetHeight;
+            window.addEventListener("scroll", (event) => {
+                let scroll = this.scrollY;
+                console.log(scroll);
+                var element = document.getElementsByTagName("nav")[0];
+                if (scroll > altura) {
+                    element.classList.add("d-none");
+                } else {
+                    element.classList.remove("d-none");
+                }
+            });
+        </script>
+        <!--con el siguiente script voy a buscar la biblioteca Chart.js-->
+
+    </body>
+</html>

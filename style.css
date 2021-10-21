@@ -1,0 +1,62 @@
+
+@import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
+
+a{
+  text-decoration: none;
+  font-weight: bold;
+}
+:root {
+    --bs-body-font-family:'Poppins', sans-serif;
+    --bs-body-font-size: 1.5rem;
+    --bs-body-font-weight: 400;
+    --bs-body-bg: #c9c9c9;
+    --bs-body-color:#03121c;
+    text-align: justify;
+
+}
+
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6{
+    font-weight: 600;
+    color: white;
+}
+strong{
+  color:#ff6f00;
+}
+
+
+#fondo-con-imagen {
+    height: 70vh;
+    background-image: url("img/portal.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+#myCarousel{
+  margin-top:10%;
+  margin-bottom: 10%;
+}
+
+#misBarritas{
+  margin-top: 10%;
+  margin-bottom: 10%;
+}
+#canvas-container{
+  margin-top:10%;
+  margin-bottom: 10%;
+  margin-left:20%;
+}
+
+.foot {
+  color:#404040;
+}
+
+#estadisticas{
+  text-align: center;
+}
