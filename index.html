@@ -50,10 +50,7 @@
                         <span class="visually-hidden">Next</span>
                       </button>
                     </div>
-                    <script>$('.carousel').carousel({
-  interval: 2000
-})</script>
-
+                   
                     <p>Bastante genial ¿no?, pues yo digo ¡no es suficiente!. Sin embargo nuestro presupuesto se acorta y esto es todo lo que podemos hacer hasta ahora. Resulta que los<strong> rayos cuanticos</strong> y<strong> la fisica</strong> involucrada en este<strong> maquinote</strong>, se ven especialmente atraidos hacia la<strong> piedra lunar</strong>, por lo que por ahora solo hemos podido hacerlo funcionar en superficies planas que se encuentren cubiertas de ella. Aparentemente, la piedra lunar tambien es <strong>extremadamente toxica</strong> por lo que esperamos que al pasar por el portal podamos disminuir los niveles de contaminación dentro de nuestros cuerpos (si, tambien el tuyo) y asi no morir antes de los 30. </p>
 
                     <!--En el siguiente SVG me aprovecho del "clip path", fíjense en los dos últimos dígitos del viewBox y los valores en width y height de la imagen que se recorta con el path: Deben ser los mismos. Pero la imagen originalmente vinculada tendría que ser más grande por asuntos de resolución -->
@@ -84,8 +81,10 @@
                     function draw() {
                       if (mouseIsPressed) {
                         fill(0);
-
                       }
+                        else{
+                            fill(0);
+                        }
                       ellipse(mouseX,mouseY,50,50);
                     }
 
